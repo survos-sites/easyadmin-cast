@@ -8,11 +8,13 @@
         "composer/package-versions-deprecated": "^1.11",
         "doctrine/doctrine-bundle": "^2.1",
         "doctrine/doctrine-migrations-bundle": "^3.0",
-        "doctrine/orm": "^2.7",
+        "doctrine/orm": "^3.3",
         "easycorp/easyadmin-bundle": "^4.0",
         "handcraftedinthealps/goodby-csv": "^1.4",
         "knplabs/knp-time-bundle": "^2.4",
+        "league/commonmark": "^2.6",
         "stof/doctrine-extensions-bundle": "^1.4",
+        "symfony/asset-mapper": "*",
         "symfony/console": "^7.1",
         "symfony/dotenv": "^7.1",
         "symfony/flex": "^2.0.0",
@@ -30,7 +32,7 @@
         "twig/twig": "^2.12|^3.0"
     },
     "require-dev": {
-        "doctrine/doctrine-fixtures-bundle": "^3.3",
+        "doctrine/doctrine-fixtures-bundle": "^3.3||^4.0",
         "rector/rector": "*",
         "symfony/debug-bundle": "^7.1",
         "symfony/maker-bundle": "^1.15",
@@ -72,7 +74,8 @@
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+            "assets:install %PUBLIC_DIR%": "symfony-cmd",
+            "importmap:install": "symfony-cmd"
         },
         "post-install-cmd": [
             "@auto-scripts"

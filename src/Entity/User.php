@@ -51,10 +51,10 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface, \String
     #[ORM\Column(nullable: true)]
     private ?string $avatar = null;
 
-    #[ORM\OneToMany('askedBy', Question::class)]
+    #[ORM\OneToMany(Question::class, mappedBy: 'askedBy')]
     private Collection $questions;
 
-    #[ORM\OneToMany('answeredBy', Answer::class)]
+    #[ORM\OneToMany(Answer::class, mappedBy: 'answeredBy')]
     private Collection $answers;
 
     public function __construct()
@@ -161,7 +161,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface, \String
     /**
      * @see UserInterface
      */
-    public function eraseCredentials()
+    public function eraseCredentials(): void
     {
         // If you store any temporary, sensitive data on the user, clear it here
          $this->plainPassword = null;
