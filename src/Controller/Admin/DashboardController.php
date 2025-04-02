@@ -7,6 +7,7 @@ use App\Entity\Question;
 use App\Entity\Topic;
 use App\Entity\User;
 use App\Repository\QuestionRepository;
+use EasyCorp\Bundle\EasyAdminBundle\Attribute\AdminDashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Actions;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Assets;
@@ -23,6 +24,8 @@ use Symfony\Component\Security\Core\User\UserInterface;
 use Symfony\UX\Chartjs\Builder\ChartBuilderInterface;
 use Symfony\UX\Chartjs\Model\Chart;
 
+#[AdminDashboard(routePath: '/admin', routeName: 'admin')]
+//#[IsGranted('ROLE_USER')]
 class DashboardController extends AbstractDashboardController
 {
     public function __construct(private readonly QuestionRepository $questionRepository)
