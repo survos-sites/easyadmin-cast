@@ -1,9 +1,5 @@
-#kernel:
-#    resource: ../src/Kernel.php
-
 controllers:
-    type: attribute
-    # use PSR-4, https://symfony.com/blog/new-in-symfony-6-2-psr-4-route-loader
     resource:
         path: ../src/Controller/
         namespace: App\Controller
+    type: attribute
