@@ -3,6 +3,15 @@
 Well hi there! This repository holds the code and script
 for the EasyAdminBundle tutorial on SymfonyCasts.
 
+It has been modified from the original with the following:
+
+* Attributes instead of Annotations
+* AssetMapper instead of Webpack
+* Foundry version 2
+* All libraries at their latest version, using rector
+* Some code related to deployment on the Survos dokku server
+* @todo: smoke tests, crawler tests and panther tests.
+
 ## Setup
 
 If you've just downloaded the code, congratulations!!
@@ -14,12 +23,25 @@ To get it working, follow these steps:
 Make sure you have [Composer installed](https://getcomposer.org/download/)
 and then run:
 
+First time:
+
 ```
-composer install
+git clone git@github.com:survos-sites/easyadmin-cast.git && cd easyadmin-cast
+symfony proxy:domain:attach easyadmin-cast
 ```
 
-You may alternatively need to run `php composer.phar install`, depending
-on how you installed Composer.
+Then 
+
+```bash
+composer install
+bin/console doctrine:schema:update --force
+bin/console doctrine:fixtures:load
+symfony server:start -d
+symfony open:local 
+```
+
+Now log in as admin@example.com <code>adminpass</code>
+
 
 **Database Setup**
 
@@ -54,16 +76,6 @@ If you do *not* want to use Docker, just make sure to start your own
 database server and update the `DATABASE_URL` environment variable in
 `.env` or `.env.local` before running the commands above.
 
-**Webpack Encore Assets**
-
-This app uses Webpack Encore for the CSS, JS and image files.
-To build the Webpack Encore assets, make sure you have
-[Yarn](https://yarnpkg.com/lang/en/) installed and then run:
-
-```
-yarn install
-yarn encore dev --watch
-```
 
 **Start the Symfony web server**
 
