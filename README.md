@@ -35,7 +35,7 @@ Then
 ```bash
 composer install
 bin/console doctrine:schema:update --force
-bin/console doctrine:fixtures:load
+bin/console doctrine:fixtures:load -n
 symfony server:start -d
 symfony open:local 
 ```
