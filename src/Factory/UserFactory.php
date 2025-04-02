@@ -26,7 +26,7 @@ use Zenstruck\Foundry\Proxy;
  * @method static UserRepository|RepositoryProxy repository()
  * @method User|Proxy create($attributes = [])
  */
-final class UserFactory extends ModelFactory
+final class UserFactory extends PersistentProxyObjectFactory
 {
     public function __construct(private readonly UserPasswordHasherInterface $passwordHasher)
     {

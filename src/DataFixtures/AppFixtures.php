@@ -14,24 +14,21 @@ class AppFixtures extends Fixture
     public function load(ObjectManager $manager): void
     {
         // Load Users
-        UserFactory::new()
-            ->withAttributes([
+        UserFactory::createOne([
                 'email' => 'superadmin@example.com',
                 'plainPassword' => 'adminpass',
             ])
             ->promoteRole('ROLE_SUPER_ADMIN')
             ->create();
 
-        UserFactory::new()
-            ->withAttributes([
-                'email' => 'admin@example.com',
-                'plainPassword' => 'adminpass',
-            ])
-            ->promoteRole('ROLE_ADMIN')
-            ->create();
+        UserFactory::createOne([
+            'email' => 'admin@example.com',
+            'plainPassword' => 'adminpass',
+        ])
+            ->promoteRole('ROLE_ADMIN');
 
-        UserFactory::new()
-            ->withAttributes([
+
+        UserFactory::createOne([
                 'email' => 'moderatoradmin@example.com',
                 'plainPassword' => 'adminpass',
             ])

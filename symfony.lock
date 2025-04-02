@@ -184,6 +184,21 @@
     "symfony/asset": {
         "version": "v6.0.1"
     },
+    "symfony/asset-mapper": {
+        "version": "7.2",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "6.4",
+            "ref": "5ad1308aa756d58f999ffbe1540d1189f5d7d14a"
+        },
+        "files": [
+            "assets/app.js",
+            "assets/styles/app.css",
+            "config/packages/asset_mapper.yaml",
+            "importmap.php"
+        ]
+    },
     "symfony/cache": {
         "version": "v6.0.1"
     },
@@ -461,8 +476,23 @@
     "symfony/uid": {
         "version": "v5.3.3"
     },
+    "symfony/ux-autocomplete": {
+        "version": "2.23",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "2.6",
+            "ref": "07d9602b7231ba355f484305d6cea58310c01741"
+        },
+        "files": [
+            "config/routes/ux_autocomplete.yaml"
+        ]
+    },
     "symfony/ux-chartjs": {
         "version": "v1.3.0"
+    },
+    "symfony/ux-dropzone": {
+        "version": "v2.23.0"
     },
     "symfony/ux-twig-component": {
         "version": "2.23",
@@ -519,9 +549,6 @@
     },
     "zenstruck/assert": {
         "version": "v1.0.0"
-    },
-    "zenstruck/callback": {
-        "version": "v1.4.1"
     },
     "zenstruck/foundry": {
         "version": "1.14",

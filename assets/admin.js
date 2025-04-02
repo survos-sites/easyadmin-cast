@@ -1,2 +1,2 @@
 import './styles/admin.css';
-import './bootstrap';
+// import './bootstrap';

@@ -37,7 +37,7 @@ class Question implements \Stringable
     #[ORM\Column]
     private int $votes = 0;
 
-    #[ORM\OneToMany('question', Answer::class, orphanRemoval: true)]
+    #[ORM\OneToMany(Answer::class, 'question', orphanRemoval: true)]
     private Collection $answers;
 
     #[ORM\ManyToOne(inversedBy: 'questions')]

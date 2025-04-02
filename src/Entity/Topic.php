@@ -18,7 +18,7 @@ class Topic implements \Stringable
     #[ORM\Column()]
     private ?string $name = null;
 
-    #[ORM\OneToMany('topic', Question::class)]
+    #[ORM\OneToMany(Question::class, 'topic')]
     private Collection $questions;
 
     public function __construct()
