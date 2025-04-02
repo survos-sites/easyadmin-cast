@@ -4,6 +4,9 @@ survos_crawler:
     user_class: App\Entity\User
     users:
         - admin@example.com
+        - moderatoradmin@example.com
+        - superadmin@example.com
+        - tisha@symfonycasts.com
     max_depth : 3
     routes_to_ignore :
         - 'app_logout'
