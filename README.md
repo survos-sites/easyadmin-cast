@@ -9,8 +9,14 @@ It has been modified from the original with the following:
 * AssetMapper instead of Webpack
 * Foundry version 2
 * All libraries at their latest version, using rector
-* Some code related to deployment on the Survos dokku server
+
+## Survos Bundles
+
+* survos/core-bundle: easier route parameters
+* survos/deployment-bundle: Some code related to deployment on the Survos dokku server
 * @todo: smoke tests, crawler tests and panther tests.
+
+
 
 ## Setup
 

@@ -9,11 +9,15 @@ use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
 use Gedmo\Timestampable\Traits\TimestampableEntity;
+use Survos\CoreBundle\Entity\RouteParametersInterface;
+use Survos\CoreBundle\Entity\RouteParametersTrait;
 
 #[ORM\Entity(QuestionRepository::class)]
-class Question implements \Stringable
+class Question implements \Stringable, RouteParametersInterface
 {
     use TimestampableEntity;
+    use RouteParametersTrait;
+    public const array UNIQUE_PARAMETERS = ['slug' => 'slug'];
 
     #[ORM\Id]
     #[ORM\GeneratedValue]

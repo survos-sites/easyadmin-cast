@@ -35,7 +35,7 @@ class QuestionController extends AbstractController
     }
 
     #[Route('/questions/{slug}', name: 'app_question_show')]
-    public function show(Question $question)
+    public function show(Question $question): Response|array
     {
         if (!$question->getIsApproved()) {
             throw $this->createNotFoundException(sprintf('Question %s has not been approved yet', $question->getId()));

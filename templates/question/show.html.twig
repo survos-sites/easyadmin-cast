@@ -40,12 +40,8 @@
                                 <h1 class="q-title-show">{{ question.name }}</h1>
 
                                 {% if is_granted('ROLE_ADMIN') %}
-                                <a class="text-white" href="{{ ea_url()
-                                    .setController('App\\Controller\\Admin\\QuestionCrudController')
-                                    .setAction('edit')
-                                    .setEntityId(question.id)
-                                }}">
-                                        <span class="fa fa-edit"></span>
+                                <a class="text-white" href="{{ path('admin_question_edit', {entityId: question.id}) }}">
+                                    <span class="fa fa-edit"></span>
                                     </a>
                                 {% endif %}
                             </div>

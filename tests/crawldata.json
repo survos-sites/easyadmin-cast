@@ -24,8 +24,8 @@
             "foundOn": "/",
             "memory": null
         },
-        "/questions/king-and-dont-look-at-the-queen-who-was": {
-            "path": "/questions/king-and-dont-look-at-the-queen-who-was",
+        "/questions/heads-below-a-loud-crash-now-who-did": {
+            "path": "/questions/heads-below-a-loud-crash-now-who-did",
             "seen": true,
             "depth": 1,
             "linkStatus": null,
@@ -36,8 +36,8 @@
             "foundOn": "/",
             "memory": null
         },
-        "/questions/their-eyes-bright-and-eager-with-many-a-strange": {
-            "path": "/questions/their-eyes-bright-and-eager-with-many-a-strange",
+        "/questions/alice-was-not-going-to-begin-with-and-being-so": {
+            "path": "/questions/alice-was-not-going-to-begin-with-and-being-so",
             "seen": true,
             "depth": 1,
             "linkStatus": null,
@@ -48,8 +48,8 @@
             "foundOn": "/",
             "memory": null
         },
-        "/questions/alice-i-dont-even-know-what-to-uglify-is-you": {
-            "path": "/questions/alice-i-dont-even-know-what-to-uglify-is-you",
+        "/questions/queen-will-hear-you-you-see-she-came-upon-a": {
+            "path": "/questions/queen-will-hear-you-you-see-she-came-upon-a",
             "seen": true,
             "depth": 1,
             "linkStatus": null,
@@ -98,8 +98,8 @@
             "foundOn": "/",
             "memory": null
         },
-        "/questions/king-and-dont-look-at-the-queen-who-was": {
-            "path": "/questions/king-and-dont-look-at-the-queen-who-was",
+        "/questions/heads-below-a-loud-crash-now-who-did": {
+            "path": "/questions/heads-below-a-loud-crash-now-who-did",
             "seen": true,
             "depth": 1,
             "linkStatus": null,
@@ -110,8 +110,8 @@
             "foundOn": "/",
             "memory": null
         },
-        "/questions/their-eyes-bright-and-eager-with-many-a-strange": {
-            "path": "/questions/their-eyes-bright-and-eager-with-many-a-strange",
+        "/questions/alice-was-not-going-to-begin-with-and-being-so": {
+            "path": "/questions/alice-was-not-going-to-begin-with-and-being-so",
             "seen": true,
             "depth": 1,
             "linkStatus": null,
@@ -122,8 +122,8 @@
             "foundOn": "/",
             "memory": null
         },
-        "/questions/alice-i-dont-even-know-what-to-uglify-is-you": {
-            "path": "/questions/alice-i-dont-even-know-what-to-uglify-is-you",
+        "/questions/queen-will-hear-you-you-see-she-came-upon-a": {
+            "path": "/questions/queen-will-hear-you-you-see-she-came-upon-a",
             "seen": true,
             "depth": 1,
             "linkStatus": null,
@@ -146,8 +146,8 @@
             "foundOn": "/admin",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+        "admin/answer": {
+            "path": "admin/answer",
             "seen": true,
             "depth": 2,
             "linkStatus": null,
@@ -158,8 +158,8 @@
             "foundOn": "/admin",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CTopicCrudController": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CTopicCrudController",
+        "admin/topic": {
+            "path": "admin/topic",
             "seen": true,
             "depth": 2,
             "linkStatus": null,
@@ -170,8 +170,8 @@
             "foundOn": "/admin",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController",
+        "admin/user": {
+            "path": "admin/user",
             "seen": true,
             "depth": 2,
             "linkStatus": null,
@@ -182,20 +182,8 @@
             "foundOn": "/admin",
             "memory": null
         },
-        "/questions/your-table-said-alice-you-neednt-be-afraid": {
-            "path": "/questions/your-table-said-alice-you-neednt-be-afraid",
-            "seen": true,
-            "depth": 2,
-            "linkStatus": null,
-            "username": "admin@example.com",
-            "route": "app_question_show",
-            "rp": null,
-            "statusCode": null,
-            "foundOn": "/admin",
-            "memory": null
-        },
-        "/questions/for-some-minutes-it-seemed-quite-natural-to": {
-            "path": "/questions/for-some-minutes-it-seemed-quite-natural-to",
+        "/questions/queens-hedgehog-just-now-only-it-ran-away-when": {
+            "path": "/questions/queens-hedgehog-just-now-only-it-ran-away-when",
             "seen": true,
             "depth": 2,
             "linkStatus": null,
@@ -206,8 +194,8 @@
             "foundOn": "/admin",
             "memory": null
         },
-        "/questions/queen-till-she-was-talking-alice-could-not": {
-            "path": "/questions/queen-till-she-was-talking-alice-could-not",
+        "/questions/nile-on-every-golden-scale-how-cheerfully-he": {
+            "path": "/questions/nile-on-every-golden-scale-how-cheerfully-he",
             "seen": true,
             "depth": 2,
             "linkStatus": null,
@@ -218,8 +206,8 @@
             "foundOn": "/admin",
             "memory": null
         },
-        "/questions/i-must-go-and-take-it-away-there-was-not-going": {
-            "path": "/questions/i-must-go-and-take-it-away-there-was-not-going",
+        "/questions/bill-the-lizard-could-not-join-the-dance-will": {
+            "path": "/questions/bill-the-lizard-could-not-join-the-dance-will",
             "seen": true,
             "depth": 2,
             "linkStatus": null,
@@ -230,8 +218,8 @@
             "foundOn": "/admin",
             "memory": null
         },
-        "/questions/rabbits-pat-pat-where-are-you-said-the": {
-            "path": "/questions/rabbits-pat-pat-where-are-you-said-the",
+        "/questions/mystery-the-mock-turtle-angrily-really-you": {
+            "path": "/questions/mystery-the-mock-turtle-angrily-really-you",
             "seen": true,
             "depth": 2,
             "linkStatus": null,
@@ -242,8 +230,8 @@
             "foundOn": "/admin",
             "memory": null
         },
-        "admin?crudAction=new&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController": {
-            "path": "admin?crudAction=new&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+        "admin/answer/new": {
+            "path": "admin/answer/new",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -251,11 +239,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=batchDelete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController": {
-            "path": "admin?crudAction=batchDelete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+        "admin/answer/batch-delete": {
+            "path": "admin/answer/batch-delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -263,11 +251,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5Bid%5D=ASC": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5Bid%5D=ASC",
+        "admin/answer?page=1&sort%5Bid%5D=ASC": {
+            "path": "admin/answer?page=1&sort%5Bid%5D=ASC",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -275,11 +263,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5Banswer%5D=DESC": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5Banswer%5D=DESC",
+        "admin/answer?page=1&sort%5Banswer%5D=DESC": {
+            "path": "admin/answer?page=1&sort%5Banswer%5D=DESC",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -287,11 +275,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5Bvotes%5D=DESC": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5Bvotes%5D=DESC",
+        "admin/answer?page=1&sort%5Bvotes%5D=DESC": {
+            "path": "admin/answer?page=1&sort%5Bvotes%5D=DESC",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -299,11 +287,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5BansweredBy%5D=DESC": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5BansweredBy%5D=DESC",
+        "admin/answer?page=1&sort%5BansweredBy%5D=DESC": {
+            "path": "admin/answer?page=1&sort%5BansweredBy%5D=DESC",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -311,11 +299,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5BcreatedAt%5D=DESC": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1&sort%5BcreatedAt%5D=DESC",
+        "admin/answer?page=1&sort%5BcreatedAt%5D=DESC": {
+            "path": "admin/answer?page=1&sort%5BcreatedAt%5D=DESC",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -323,11 +311,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&entityId=2": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&entityId=2",
+        "admin/user/29": {
+            "path": "admin/user/29",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -335,11 +323,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=100": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=100",
+        "admin/answer/800": {
+            "path": "admin/answer/800",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -347,11 +335,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=100": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=100",
+        "admin/answer/800/edit": {
+            "path": "admin/answer/800/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -359,11 +347,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=100": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=100",
+        "admin/answer/800/delete": {
+            "path": "admin/answer/800/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -371,11 +359,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&entityId=4": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&entityId=4",
+        "admin/user/30": {
+            "path": "admin/user/30",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -383,11 +371,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=99": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=99",
+        "admin/answer/799": {
+            "path": "admin/answer/799",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -395,11 +383,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=99": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=99",
+        "admin/answer/799/edit": {
+            "path": "admin/answer/799/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -407,11 +395,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=99": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=99",
+        "admin/answer/799/delete": {
+            "path": "admin/answer/799/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -419,11 +407,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=98": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=98",
+        "admin/answer/798": {
+            "path": "admin/answer/798",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -431,11 +419,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=98": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=98",
+        "admin/answer/798/edit": {
+            "path": "admin/answer/798/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -443,11 +431,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=98": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=98",
+        "admin/answer/798/delete": {
+            "path": "admin/answer/798/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -455,11 +443,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=97": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=97",
+        "admin/answer/797": {
+            "path": "admin/answer/797",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -467,11 +455,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=97": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=97",
+        "admin/answer/797/edit": {
+            "path": "admin/answer/797/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -479,11 +467,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=97": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=97",
+        "admin/answer/797/delete": {
+            "path": "admin/answer/797/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -491,11 +479,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&entityId=1": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&entityId=1",
+        "admin/user/32": {
+            "path": "admin/user/32",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -503,11 +491,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=96": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=96",
+        "admin/answer/796": {
+            "path": "admin/answer/796",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -515,11 +503,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=96": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=96",
+        "admin/answer/796/edit": {
+            "path": "admin/answer/796/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -527,11 +515,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=96": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=96",
+        "admin/answer/796/delete": {
+            "path": "admin/answer/796/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -539,11 +527,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=95": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=95",
+        "admin/answer/795": {
+            "path": "admin/answer/795",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -551,11 +539,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=95": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=95",
+        "admin/answer/795/edit": {
+            "path": "admin/answer/795/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -563,11 +551,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=95": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=95",
+        "admin/answer/795/delete": {
+            "path": "admin/answer/795/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -575,11 +563,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=94": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=94",
+        "admin/user/31": {
+            "path": "admin/user/31",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -587,11 +575,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=94": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=94",
+        "admin/answer/794": {
+            "path": "admin/answer/794",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -599,11 +587,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=94": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=94",
+        "admin/answer/794/edit": {
+            "path": "admin/answer/794/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -611,11 +599,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=93": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=93",
+        "admin/answer/794/delete": {
+            "path": "admin/answer/794/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -623,11 +611,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=93": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=93",
+        "admin/answer/793": {
+            "path": "admin/answer/793",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -635,11 +623,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=93": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=93",
+        "admin/answer/793/edit": {
+            "path": "admin/answer/793/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -647,11 +635,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&entityId=3": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CUserCrudController&entityId=3",
+        "admin/answer/793/delete": {
+            "path": "admin/answer/793/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -659,11 +647,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=92": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=92",
+        "admin/answer/792": {
+            "path": "admin/answer/792",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -671,11 +659,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=92": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=92",
+        "admin/answer/792/edit": {
+            "path": "admin/answer/792/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -683,11 +671,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=92": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=92",
+        "admin/answer/792/delete": {
+            "path": "admin/answer/792/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -695,11 +683,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=91": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=91",
+        "admin/answer/791": {
+            "path": "admin/answer/791",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -707,11 +695,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=91": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=91",
+        "admin/answer/791/edit": {
+            "path": "admin/answer/791/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -719,11 +707,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=91": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=91",
+        "admin/answer/791/delete": {
+            "path": "admin/answer/791/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -731,11 +719,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=90": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=90",
+        "admin/answer/790": {
+            "path": "admin/answer/790",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -743,11 +731,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=90": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=90",
+        "admin/answer/790/edit": {
+            "path": "admin/answer/790/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -755,11 +743,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=90": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=90",
+        "admin/answer/790/delete": {
+            "path": "admin/answer/790/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -767,11 +755,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=89": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=89",
+        "admin/answer/789": {
+            "path": "admin/answer/789",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -779,11 +767,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=89": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=89",
+        "admin/answer/789/edit": {
+            "path": "admin/answer/789/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -791,11 +779,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=89": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=89",
+        "admin/answer/789/delete": {
+            "path": "admin/answer/789/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -803,11 +791,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=88": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=88",
+        "admin/answer/788": {
+            "path": "admin/answer/788",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -815,11 +803,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=88": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=88",
+        "admin/answer/788/edit": {
+            "path": "admin/answer/788/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -827,11 +815,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=88": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=88",
+        "admin/answer/788/delete": {
+            "path": "admin/answer/788/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -839,11 +827,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=87": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=87",
+        "admin/answer/787": {
+            "path": "admin/answer/787",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -851,11 +839,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=87": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=87",
+        "admin/answer/787/edit": {
+            "path": "admin/answer/787/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -863,11 +851,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=87": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=87",
+        "admin/answer/787/delete": {
+            "path": "admin/answer/787/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -875,11 +863,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=86": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=86",
+        "admin/answer/786": {
+            "path": "admin/answer/786",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -887,11 +875,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=86": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=86",
+        "admin/answer/786/edit": {
+            "path": "admin/answer/786/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -899,11 +887,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=86": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=86",
+        "admin/answer/786/delete": {
+            "path": "admin/answer/786/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -911,11 +899,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=85": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=85",
+        "admin/answer/785": {
+            "path": "admin/answer/785",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -923,11 +911,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=85": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=85",
+        "admin/answer/785/edit": {
+            "path": "admin/answer/785/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -935,11 +923,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=85": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=85",
+        "admin/answer/785/delete": {
+            "path": "admin/answer/785/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -947,11 +935,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=84": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=84",
+        "admin/answer/784": {
+            "path": "admin/answer/784",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -959,11 +947,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=84": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=84",
+        "admin/answer/784/edit": {
+            "path": "admin/answer/784/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -971,11 +959,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=84": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=84",
+        "admin/answer/784/delete": {
+            "path": "admin/answer/784/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -983,11 +971,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=83": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=83",
+        "admin/answer/783": {
+            "path": "admin/answer/783",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -995,11 +983,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=83": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=83",
+        "admin/answer/783/edit": {
+            "path": "admin/answer/783/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1007,11 +995,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=83": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=83",
+        "admin/answer/783/delete": {
+            "path": "admin/answer/783/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1019,11 +1007,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=82": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=82",
+        "admin/answer/782": {
+            "path": "admin/answer/782",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1031,11 +1019,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=82": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=82",
+        "admin/answer/782/edit": {
+            "path": "admin/answer/782/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1043,11 +1031,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=82": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=82",
+        "admin/answer/782/delete": {
+            "path": "admin/answer/782/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1055,11 +1043,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=81": {
-            "path": "admin?crudAction=detail&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=81",
+        "admin/answer/781": {
+            "path": "admin/answer/781",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1067,11 +1055,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=81": {
-            "path": "admin?crudAction=edit&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=81",
+        "admin/answer/781/edit": {
+            "path": "admin/answer/781/edit",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1079,11 +1067,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=81": {
-            "path": "admin?crudAction=delete&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&entityId=81",
+        "admin/answer/781/delete": {
+            "path": "admin/answer/781/delete",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1091,11 +1079,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=1",
+        "admin/answer?page=1": {
+            "path": "admin/answer?page=1",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1103,11 +1091,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=2": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=2",
+        "admin/answer?page=2": {
+            "path": "admin/answer?page=2",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1115,11 +1103,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=3": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=3",
+        "admin/answer?page=3": {
+            "path": "admin/answer?page=3",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1127,11 +1115,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=4": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=4",
+        "admin/answer?page=4": {
+            "path": "admin/answer?page=4",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1139,11 +1127,11 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         },
-        "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=5": {
-            "path": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController&page=5",
+        "admin/answer?page=5": {
+            "path": "admin/answer?page=5",
             "seen": true,
             "depth": 3,
             "linkStatus": null,
@@ -1151,7 +1139,7 @@
             "route": null,
             "rp": null,
             "statusCode": null,
-            "foundOn": "admin?crudAction=index&crudControllerFqcn=App%5CController%5CAdmin%5CAnswerCrudController",
+            "foundOn": "admin/answer",
             "memory": null
         }
     }
