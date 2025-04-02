@@ -157,6 +157,23 @@
             "phpstan.dist.neon"
         ]
     },
+    "phpunit/phpunit": {
+        "version": "12.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "10.0",
+            "ref": "b786e93f0b38027289867faca488b8c511436fe0"
+        },
+        "files": [
+            ".env.test",
+            "phpunit.dist.xml",
+            "tests/bootstrap.php"
+        ]
+    },
+    "pierstoval/smoke-testing": {
+        "version": "1.2.1"
+    },
     "psr/cache": {
         "version": "3.0.0"
     },
@@ -179,6 +196,19 @@
         },
         "files": [
             "config/packages/stof_doctrine_extensions.yaml"
+        ]
+    },
+    "survos/crawler-bundle": {
+        "version": "1.5",
+        "recipe": {
+            "repo": "github.com/symfony/recipes-contrib",
+            "branch": "main",
+            "version": "1.5",
+            "ref": "d16db1be85e21925f873d8099ca9ae7c4d50a208"
+        },
+        "files": [
+            "config/packages/survos_crawler.yaml",
+            "config/routes/survos_crawler.yaml"
         ]
     },
     "symfony/asset": {
@@ -549,6 +579,15 @@
     },
     "zenstruck/assert": {
         "version": "v1.0.0"
+    },
+    "zenstruck/browser": {
+        "version": "1.9",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "main",
+            "version": "1.9",
+            "ref": "66c5290398734ff02cedddf44dce6eb2002d958c"
+        }
     },
     "zenstruck/foundry": {
         "version": "1.14",

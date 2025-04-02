@@ -19,3 +19,8 @@ node_modules
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###

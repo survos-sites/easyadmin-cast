@@ -43,6 +43,15 @@ symfony open:local
 Now log in as admin@example.com <code>adminpass</code>
 
 
+## Tests
+
+```php
+composer req survos/crawler-bundle --dev
+composer req zenstruck/browser --dev
+```
+
+
+
 **Database Setup**
 
 The code comes with a `docker-compose.yaml` file and we recommend using
