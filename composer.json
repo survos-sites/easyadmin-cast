@@ -7,7 +7,6 @@
         "ext-iconv": "*",
         "composer/package-versions-deprecated": "^1.11",
         "doctrine/doctrine-bundle": "^2.1",
-        "doctrine/persistence": "^3.0",
         "doctrine/doctrine-migrations-bundle": "^3.0",
         "doctrine/orm": "^3.3",
         "easycorp/easyadmin-bundle": "^4.0",
@@ -37,12 +36,12 @@
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "^3.3||^4.0",
         "phpstan/phpstan-doctrine": "*",
-        "rector/rector": "^1.0",
+        "rector/rector": "^2.0",
         "symfony/debug-bundle": "^7.1",
         "symfony/maker-bundle": "^1.15",
         "symfony/var-dumper": "^7.1",
         "symfony/web-profiler-bundle": "^7.1",
-        "zenstruck/foundry": "^1.0"
+        "zenstruck/foundry": "^2.0"
     },
     "config": {
         "preferred-install": {

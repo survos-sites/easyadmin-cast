@@ -4,29 +4,50 @@ namespace App\Factory;
 
 use App\Entity\Topic;
 use App\Repository\TopicRepository;
-use Zenstruck\Foundry\RepositoryProxy;
+use Zenstruck\Foundry\Persistence\RepositoryDecorator;
 use Zenstruck\Foundry\ModelFactory;
-use Zenstruck\Foundry\Proxy;
+use Zenstruck\Foundry\Persistence\Proxy;
 
 /**
- * @method static Topic|Proxy createOne(array $attributes = [])
- * @method static Topic[]|Proxy[] createMany(int $number, $attributes = [])
- * @method static Topic|Proxy find($criteria)
- * @method static Topic|Proxy findOrCreate(array $attributes)
- * @method static Topic|Proxy first(string $sortedField = 'id')
- * @method static Topic|Proxy last(string $sortedField = 'id')
- * @method static Topic|Proxy random(array $attributes = [])
- * @method static Topic|Proxy randomOrCreate(array $attributes = [])
- * @method static Topic[]|Proxy[] all()
- * @method static Topic[]|Proxy[] findBy(array $attributes)
- * @method static Topic[]|Proxy[] randomSet(int $number, array $attributes = [])
- * @method static Topic[]|Proxy[] randomRange(int $min, int $max, array $attributes = [])
- * @method static TopicRepository|RepositoryProxy repository()
- * @method Topic|Proxy create($attributes = [])
+ * @method \App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy create(array|callable $attributes = [])
+ * @method static \App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy createOne(array $attributes = [])
+ * @method static \App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy find(object|array|mixed $criteria)
+ * @method static \App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy findOrCreate(array $attributes)
+ * @method static \App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy first(string $sortedField = 'id')
+ * @method static \App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy last(string $sortedField = 'id')
+ * @method static \App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy random(array $attributes = [])
+ * @method static \App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy randomOrCreate(array $attributes = [])
+ * @method static \App\Entity\Topic[]|\Zenstruck\Foundry\Persistence\Proxy[] all()
+ * @method static \App\Entity\Topic[]|\Zenstruck\Foundry\Persistence\Proxy[] createMany(int $number, array|callable $attributes = [])
+ * @method static \App\Entity\Topic[]|\Zenstruck\Foundry\Persistence\Proxy[] createSequence(iterable|callable $sequence)
+ * @method static \App\Entity\Topic[]|\Zenstruck\Foundry\Persistence\Proxy[] findBy(array $attributes)
+ * @method static \App\Entity\Topic[]|\Zenstruck\Foundry\Persistence\Proxy[] randomRange(int $min, int $max, array $attributes = [])
+ * @method static \App\Entity\Topic[]|\Zenstruck\Foundry\Persistence\Proxy[] randomSet(int $number, array $attributes = [])
+ * @method \Zenstruck\Foundry\FactoryCollection<\App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy> many(int $min, int|null $max = null)
+ * @method \Zenstruck\Foundry\FactoryCollection<\App\Entity\Topic|\Zenstruck\Foundry\Persistence\Proxy> sequence(iterable|callable $sequence)
+ * @method static \Zenstruck\Foundry\Persistence\ProxyRepositoryDecorator<\App\Entity\Topic, \App\Repository\TopicRepository> repository()
+ *
+ * @phpstan-method \App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic> create(array|callable $attributes = [])
+ * @phpstan-method static \App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic> createOne(array $attributes = [])
+ * @phpstan-method static \App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic> find(object|array|mixed $criteria)
+ * @phpstan-method static \App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic> findOrCreate(array $attributes)
+ * @phpstan-method static \App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic> first(string $sortedField = 'id')
+ * @phpstan-method static \App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic> last(string $sortedField = 'id')
+ * @phpstan-method static \App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic> random(array $attributes = [])
+ * @phpstan-method static \App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic> randomOrCreate(array $attributes = [])
+ * @phpstan-method static list<\App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic>> all()
+ * @phpstan-method static list<\App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic>> createMany(int $number, array|callable $attributes = [])
+ * @phpstan-method static list<\App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic>> createSequence(iterable|callable $sequence)
+ * @phpstan-method static list<\App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic>> findBy(array $attributes)
+ * @phpstan-method static list<\App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic>> randomRange(int $min, int $max, array $attributes = [])
+ * @phpstan-method static list<\App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic>> randomSet(int $number, array $attributes = [])
+ * @phpstan-method \Zenstruck\Foundry\FactoryCollection<\App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic>> many(int $min, int|null $max = null)
+ * @phpstan-method \Zenstruck\Foundry\FactoryCollection<\App\Entity\Topic&\Zenstruck\Foundry\Persistence\Proxy<\App\Entity\Topic>> sequence(iterable|callable $sequence)
+ * @extends \Zenstruck\Foundry\Persistence\PersistentProxyObjectFactory<\App\Entity\Topic>
  */
-final class TopicFactory extends ModelFactory
+final class TopicFactory extends \Zenstruck\Foundry\Persistence\PersistentProxyObjectFactory
 {
-    protected function getDefaults(): array
+    protected function defaults(): array
     {
         return [
             'name' => ucfirst(self::faker()->words(3, true)),
@@ -34,7 +55,7 @@ final class TopicFactory extends ModelFactory
     }
 
     #[\Override]
-    protected function initialize(): self
+    protected function initialize(): static
     {
         // see https://github.com/zenstruck/foundry#initialization
         return $this
@@ -42,7 +63,7 @@ final class TopicFactory extends ModelFactory
         ;
     }
 
-    protected static function getClass(): string
+    public static function class(): string
     {
         return Topic::class;
     }

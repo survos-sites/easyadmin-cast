@@ -9,6 +9,7 @@ return RectorConfig::configure()
     ->withPaths([
         // add all paths where your factories are defined and where Foundry is used
         'src/Factory',
+        'src/DataFixtures',
 //        '/tests'
     ])
     ->withSets([FoundrySetList::UP_TO_FOUNDRY_2])

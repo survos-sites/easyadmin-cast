@@ -17,26 +17,24 @@ class AppFixtures extends Fixture
         UserFactory::createOne([
                 'email' => 'superadmin@example.com',
                 'plainPassword' => 'adminpass',
-            ])
-            ->promoteRole('ROLE_SUPER_ADMIN')
-            ->create();
+                'roles' => ['ROLE_SUPER_ADMIN']
+            ]);
 
         UserFactory::createOne([
             'email' => 'admin@example.com',
             'plainPassword' => 'adminpass',
-        ])
-            ->promoteRole('ROLE_ADMIN');
+            'roles' => ['ROLE_ADMIN']
+        ]);
 
 
         UserFactory::createOne([
                 'email' => 'moderatoradmin@example.com',
                 'plainPassword' => 'adminpass',
-            ])
-            ->promoteRole('ROLE_MODERATOR')
-            ->create();
+                'roles' => ['ROLE_MODERATOR']
+            ]);
 
         UserFactory::new()
-            ->withAttributes([
+            ->with([
                 'email' => 'tisha@symfonycasts.com',
                 'plainPassword' => 'tishapass',
                 'firstName' => 'Tisha',
