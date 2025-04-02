@@ -13,6 +13,7 @@ class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager): void
     {
+
         // Load Users
         UserFactory::createOne([
                 'email' => 'superadmin@example.com',
@@ -57,5 +58,17 @@ class AppFixtures extends Fixture
         AnswerFactory::new()->createMany(100);
 
         $manager->flush();
+    }
+
+    private function getQuestions(): array
+    {
+        // these should be in app:load, not fixtures
+        // /2.3/questions?order=desc&sort=activity&tagged=symfony&site=stackoverflow
+        // https://api.stackexchange.com/docs/answers-on-questions
+        // answers: https://api.stackexchange.com/2.3/questions?order=desc&sort=activity&site=stackoverflow
+        $url = 'https://api.stackexchange.com/2.3/questions?order=desc&sort=activity&tagged=symfony&site=stackoverflow';
+        $json = json_decode(file_get_contents($url), true);
+        return $json['items'];
+
     }
 }

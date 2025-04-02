@@ -8,5 +8,7 @@ survos_crawler:
         - superadmin@example.com
         - tisha@symfonycasts.com
     max_depth : 3
+    # max per route per user
+    max_per_route: 2
     routes_to_ignore :
         - 'app_logout'

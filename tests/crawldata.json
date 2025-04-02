@@ -1142,5 +1142,47 @@
             "foundOn": "admin/answer",
             "memory": null
         }
+    },
+    "moderatoradmin@example.com|App\\Entity\\User|https://easyadmin-cast.wip/": {
+        "/": {
+            "path": "/",
+            "seen": true,
+            "depth": 0,
+            "linkStatus": null,
+            "username": "moderatoradmin@example.com",
+            "route": "app_homepage",
+            "rp": null,
+            "statusCode": null,
+            "foundOn": null,
+            "memory": null
+        }
+    },
+    "superadmin@example.com|App\\Entity\\User|https://easyadmin-cast.wip/": {
+        "/": {
+            "path": "/",
+            "seen": true,
+            "depth": 0,
+            "linkStatus": null,
+            "username": "superadmin@example.com",
+            "route": "app_homepage",
+            "rp": null,
+            "statusCode": null,
+            "foundOn": null,
+            "memory": null
+        }
+    },
+    "tisha@symfonycasts.com|App\\Entity\\User|https://easyadmin-cast.wip/": {
+        "/": {
+            "path": "/",
+            "seen": true,
+            "depth": 0,
+            "linkStatus": null,
+            "username": "tisha@symfonycasts.com",
+            "route": "app_homepage",
+            "rp": null,
+            "statusCode": null,
+            "foundOn": null,
+            "memory": null
+        }
     }
 }
