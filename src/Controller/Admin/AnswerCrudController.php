@@ -5,6 +5,7 @@ namespace App\Controller\Admin;
 use App\Controller\QuestionController;
 use App\EasyAdmin\VotesField;
 use App\Entity\Answer;
+use Dom\Entity;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractCrudController;
 use EasyCorp\Bundle\EasyAdminBundle\Field\AssociationField;
 use EasyCorp\Bundle\EasyAdminBundle\Field\Field;
@@ -28,7 +29,7 @@ class AnswerCrudController extends AbstractCrudController
             ->setTemplatePath('admin/field/votes.html.twig');
         yield AssociationField::new('question')
             ->autocomplete()
-            ->setCrudController(QuestionController::class)
+            ->setCrudController(QuestionCrudController::class)
             ->hideOnIndex();
         yield VotesField::new('votes', 'Total Votes')
             ->setTextAlign('right');
