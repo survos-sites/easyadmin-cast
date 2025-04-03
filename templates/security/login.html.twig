@@ -6,6 +6,9 @@
     <div class="container">
         <div class="row">
             <div class="col-6 mt-5 offset-3">
+                <div class="bg-body-secondary">
+                    Log in as 'admin@example.com' / <code>adminpass</code> to easily switch roles.
+                </div>
                 <form method="post">
                     {% if error %}
                         <div class="alert alert-danger">{{ error.messageKey|trans(error.messageData, 'security') }}</div>

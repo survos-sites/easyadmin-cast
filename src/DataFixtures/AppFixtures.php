@@ -16,20 +16,34 @@ class AppFixtures extends Fixture
 
         // Load Users
         UserFactory::createOne([
+            'firstName' => 'superadmin',
+            'lastName' => 'ROLE_SUPER_ADMIN',
+
                 'email' => 'superadmin@example.com',
                 'plainPassword' => 'adminpass',
                 'roles' => ['ROLE_SUPER_ADMIN']
             ]);
 
         UserFactory::createOne([
+            'firstName' => 'admin',
+            'lastName' => 'ROLE_ADMIN',
             'email' => 'admin@example.com',
             'plainPassword' => 'adminpass',
-            'roles' => ['ROLE_ADMIN']
+            'roles' => ['ROLE_ADMIN','ROLE_ALLOWED_TO_SWITCH']
+        ]);
+        UserFactory::createOne([
+            'firstName' => 'switch',
+            'lastName' => 'ROLE_ALLOWED_TO_SWITCH',
+            'email' => 'switch@example.com',
+            'plainPassword' => 'adminpass',
+            'roles' => ['ROLE_ALLOWED_TO_SWITCH']
         ]);
 
 
         UserFactory::createOne([
-                'email' => 'moderatoradmin@example.com',
+                'firstName' => 'moderator',
+                'lastName' => 'ROLE_MODERATOR',
+                    'email' => 'moderatoradmin@example.com',
                 'plainPassword' => 'adminpass',
                 'roles' => ['ROLE_MODERATOR']
             ]);
@@ -39,7 +53,7 @@ class AppFixtures extends Fixture
                 'email' => 'tisha@symfonycasts.com',
                 'plainPassword' => 'tishapass',
                 'firstName' => 'Tisha',
-                'lastName' => 'The Cat',
+                'lastName' => 'ROLE_USER',
                 'avatar' => 'tisha.png',
             ])
             ->create();

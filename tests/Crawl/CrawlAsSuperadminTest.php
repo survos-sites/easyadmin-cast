@@ -8,14 +8,10 @@ use Survos\CrawlerBundle\Tests\BaseVisitLinksTest;
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class CrawlAsVisitorTest extends BaseVisitLinksTest
+class CrawlAsSuperadminTest extends BaseVisitLinksTest
 {
 	#[TestDox('/$method $url ($route)')]
-	#[TestWith(['', 'App\Entity\User', '/', 200])]
-	#[TestWith(['', 'App\Entity\User', '/login', 200])]
-	#[TestWith(['', 'App\Entity\User', '/questions/was-kindly-permitted-to-pocket-the-spoon-while', 200])]
-	#[TestWith(['', 'App\Entity\User', '/questions/alices-right-foot-esq-hearthrug-near-the', 200])]
-	#[TestWith(['', 'App\Entity\User', '/questions/queens-hedgehog-just-now-only-it-ran-away-when', 200])]
+	#[TestWith(['superadmin@example.com', 'App\Entity\User', '/', 200])]
 	public function testRoute(string $username, string $userClassName, string $url, string|int|null $expected): void
 	{
 		parent::testWithLogin($username, $userClassName, $url, (int)$expected);

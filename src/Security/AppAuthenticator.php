@@ -46,6 +46,7 @@ class AppAuthenticator extends AbstractLoginFormAuthenticator
             return new RedirectResponse($targetPath);
         }
 
+        // go to admin if logged in user?
         return new RedirectResponse($this->urlGenerator->generate('app_homepage'));
     }
 

@@ -16,6 +16,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Config\Dashboard;
 use EasyCorp\Bundle\EasyAdminBundle\Config\MenuItem;
 use EasyCorp\Bundle\EasyAdminBundle\Config\UserMenu;
 use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
+use Symfony\Bundle\SecurityBundle\Security;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
 
 use Symfony\Component\HttpFoundation\Response;
@@ -28,7 +29,10 @@ use Symfony\UX\Chartjs\Model\Chart;
 //#[IsGranted('ROLE_USER')]
 class DashboardController extends AbstractDashboardController
 {
-    public function __construct(private readonly QuestionRepository $questionRepository)
+    public function __construct(
+        private readonly QuestionRepository $questionRepository,
+        private readonly Security $security,
+    )
     {
     }
 
@@ -87,11 +91,33 @@ class DashboardController extends AbstractDashboardController
     #[\Override]
     public function configureUserMenu(UserInterface $user): UserMenu
     {
-        return parent::configureUserMenu($user)
-            ->setAvatarUrl($user->getAvatarUrl())
+        $menu =  parent::configureUserMenu($user)
+            ->setAvatarUrl($user->getAvatarUrl());
+        if ($this->security->isGranted('ROLE_ALLOWED_TO_SWITCH')) {
+//            http://example.com/somewhere?_switch_user=thomas
+            foreach (['admin','moderatoradmin','superadmin'] as $code) {
+                $email  = $code . '@example.com';
+                if ($email <> $user->getEmail()) {
+                    $menu->addMenuItems([
+                        MenuItem::linkToUrl($code, 'fas fa-user-tie', $this->generateUrl('admin', ['_switch_user' => $email])),
+                    ]);
+                }
+
+            }
+            $menu->addMenuItems([
+                MenuItem::section('Impersonate')
+            ]);
+
+        }
+        $menu->addMenuItems([])
             ->addMenuItems([
                 MenuItem::linkToUrl('My Profile', 'fas fa-user', $this->generateUrl('app_profile_show'))
             ]);
+
+        // https://symfony.com/doc/current/security/impersonating_user.html
+        return $menu;
+
+
     }
 
     #[\Override]
